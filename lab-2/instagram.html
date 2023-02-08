@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Instagram login page</title>
+  <style>
+    body{
+      background-color: #fafafa;
+    }
+
+    #IPhones{
+      position: relative;
+      top: -10px;
+      left: 310px;
+      height: 700px;
+      /*width: 100px;*/
+    }
+
+    .box1{
+      position: relative;
+      bottom: 630px;
+      left: 740px;
+      border: 1px solid #dadde1;
+      border-radius: 1px;
+      background-color: white;
+      width: 370px;
+      height: 380px;
+      text-align: center;
+      font-family: Helvetica, Arial, sans-serif
+    }
+
+    #Instagram-logo {
+      height: 65px;
+      margin: 20px 40px 20px 20px;
+    }
+
+    .login{
+      font-size: 13px;
+      display: inline-block;
+      color: #474f5b;
+      border: 1px solid #dddfe2;
+      border-radius: 2px;
+      width: 270px;
+      height: 40px;
+      margin: 0px 20px 10px 20px;
+      padding-left: 8px;
+    }
+
+    #enter {
+      border: 1px solid #dddfe2;
+      border-radius: 4px;
+      background-color: blue;
+      color: white;
+      font-weight: bold;
+      width: 280px;
+      height: 30px;
+      margin-bottom: 20px;
+
+    }
+
+    #line1{
+      align-items: center;
+      border-bottom: 1px solid #dddfe2;
+      width: 100px;
+      margin: 0px 20px 20px 0px;
+      display: inline-block;
+    }
+
+    #or{
+      position: relative;
+      top: -15px;
+      right: 5px;
+      color: #8e8e8e;
+      font-size: 13px;
+      font-weight: 600;
+      line-height: 15px;
+      margin: 10px;
+      display: inline-block;
+    }
+
+    #line2{
+      align-items: center;
+      border-bottom: 1px solid #dddfe2;
+      width: 100px;
+      margin: 0px 0px 20px 10px;
+      display: inline-block;
+    }
+
+    #fblogo{
+      width: 17px;
+      display: flex;
+      margin-left: 90px;
+    }
+
+    #facebookenter{
+      position: relative;
+      top: -18px;
+      right: -70px;
+      text-decoration: none;
+      color:#385185;
+      font-weight: bold;
+      font-size: 15px;
+    }
+
+    #forgotten-password{
+      position: relative;
+      top: 25px;
+      right: 90px;
+      /*margin: 0% auto;*/
+      text-decoration: none;
+      color:#385185;
+      font-size: 13px;
+    }
+
+    .box2{
+      position: relative;
+      bottom: 630px;
+      left: 740px;
+      border: 1px solid #dadde1;
+      border-radius: 1px;
+      background-color: white;
+      width: 370px;
+      height: 60px;
+      text-align: center;
+      font-family: Helvetica, Arial, sans-serif;
+      margin-top: 10px;
+      font-size: 14px;
+    }
+
+    .box2 p{
+      margin-top: 20px;
+    }
+
+    .box2 a{
+      color: #3095ea;
+      font-weight: bold;
+      text-decoration: none;
+    }
+
+    #download-app{
+      position: relative;
+      bottom: 630px;
+      left: 840px;
+      font-family: Helvetica, Arial, sans-serif;
+      font-size: 14px;
+    }
+
+    #appstore{
+      position: relative;
+      bottom: 630px;
+      left: 770px;
+      display: inline-block;
+      width: 150px;
+      margin-right: 5px;
+    }
+
+    #googleplay{
+      position: relative;
+      bottom: 630px;
+      left: 770px;
+      display: inline-block;
+      width: 150px;
+    }
+
+    .footer{
+      position: relative;
+      top: -550px;
+      left: 10px;
+      text-align: center;
+      color: #58606e;
+      font-size: 13px;
+      font-family: Helvetica, Arial, sans-serif;
+    }
+
+    .footer a{
+      font-family: Helvetica, Arial, sans-serif;
+      text-decoration: none;
+      color: #58606e;
+      padding: 5px;
+      line-height: 25px;
+      font-size: 13px;
+    }
+
+    .footer a:hover{
+      text-decoration: underline;
+    }
+
+    #select-language{
+      position: relative;
+      padding: 10px;
+      top: 3px;
+      left: -120px;
+      display: inline;
+      border: none;
+      color: #58606e;
+      background-color: #fafafa;
+      margin-top: 10px;
+    }
+
+
+    #last{
+      position: relative;
+      top: -36px;
+      left: 25px;
+    }
+
+  </style>
+</head>
+<body>
+
+<img id="IPhones" src="insta.png" alt="instagram logo">
+<div class="box1">
+  <img id="Instagram-logo" src="logo.png" alt="instagram logo">
+  <input class="login" type="text" placeholder="Телефон, имя пользователя или эл. адрес"> <br>
+  <input class="login" type="text" placeholder="Пароль"> <br>
+  <button id="enter">Bойти</button>
+  <div id="line1"></div>
+  <p id="or">ИЛИ</p>
+  <div id="line2"></div>
+  <img id="fblogo" src="fb-logo.png" alt="fblogo">
+  <a id="facebookenter" href="Facebook_login_page.html">Войти через Facebook</a>
+  <a id="forgotten-password" href="https://ru-ru.facebook.com/login/identify/?ctx=recover&ars=facebook_login&from_login_screen=0" >Забыли пароль?</a>
+</div>
+<div class="box2">
+  <p>У вас еще нет аккаунта? <a href="https://www.instagram.com/accounts/emailsignup/" >Зарегистрироваться</a></p>
+</div>
+
+<p id="download-app">Установите приложение.</p>
+
+<a href="https://apps.apple.com/app/instagram/id389801252?vt=lo"><img id="appstore" src="appstore.png" alt="appstore"></a>
+<a href="https://play.google.com/store/apps/details?id=com.instagram.android&referrer=utm_source%3Dinstagramweb&utm_campaign=loginPage&ig_mid=FF6C3D56-2A41-4983-8A6C-55D4FEDA0ACF&utm_content=lo&utm_medium=badge"><img id="googleplay" src="googleplay.png" alt="googlepay"></a>
+
+<div class="footer">
+  <a href="">Meta</a>
+  <a href="">Информация</a>
+  <a href="">Блог</a>
+  <a href="">Вакансии</a>
+  <a href="">Помощь</a>
+  <a href="">API</a>
+  <a href="">Конфиденциальность</a>
+  <a href="">Условия</a>
+  <a href="">Популярные аккаунты</a>
+  <a href="">Хэштеги</a>
+  <a href="">Instagram Lite</a>
+  <a href="">Красота</a> <br>
+  <a href="">Танцы</a>
+  <a href="">Фитнес</a>
+  <a href="">Еда и напитки</a>
+  <a href="">Дом и сад</a>
+  <a href="">Музыка</a>
+  <a href="">Изобразительное искусство</a> <br>
+  <form>
+    <select id="select-language" name="language">
+      <option value="rus">Русский</option>
+      <option value="eng">English</option>
+      <option value="kz">Қазақша</option>
+    </select>
+  </form>
+  <p id="last">© 2023 Instagram from Meta</p>
+
+
+</div>
+</body>
+</html>
